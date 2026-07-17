@@ -39,6 +39,9 @@ All of these require a comparison.
 | `!==`    | Strict not equal         | `5 !== "5"` | `true`  |
 
 
+
+
+
 ⚠️Equality Operators
 
 This is the part that confuses many beginners.
@@ -62,3 +65,25 @@ Always prefer === and !== unless you have a specific reason to use == or !=.
 
 
 */
+
+//Example:
+// Without running the code, predict the output:
+
+console.log(10 > 5);
+console.log(10 < 5);
+console.log(10 >= 10);
+console.log(5 == "5");
+console.log(5 === "5");
+console.log(5 != "5");
+console.log(5 !== "5");
+
+console.log(true == 1);
+console.log(true === 1);
+
+console.log(false == 0);
+console.log(false === 0);
+
+console.log(null == undefined);
+console.log(null === undefined);
+
+console.log("10" > 5);
