@@ -109,9 +109,14 @@
 
 
 // ✅Task 10 — Using Break
-// Write a for loop from 1 to 50 that stops completely (break) as soon as it reaches a
-// number greater than 30
+// Write a for loop from 1 to 50 that stops completely (break) as soon as it reaches a number greater than 30
 
+// for(let i=1; i<=50; i++){
+//     if(i>30){
+//         break;
+//     }
+//     console.log(i);
+// }
 
 
 
@@ -119,15 +124,67 @@
 // ✅Task 11 — Using Continue
 // Write a for loop from 1 to 20 that skips (continue) any number divisible by 4.
 
+// let count=0;
+// for(let i=1; i<=20;i++){
+//     if(i%4===0){
+//         count++;
+//         continue;
+//     }
+//     console.log(i);
+// }
+// console.log("Total skipped : ",count);
+
+
+
+
+
 // ✅Task 12 — Do While Loop — Optional
-// Write a do while loop that prints numbers from 1 to 5. Then modify the condition so it is
-// false from the start (for example, i > 10) and observe that the loop still runs once
+// Write a do while loop that prints numbers from 1 to 5. 
+// Then modify the condition so it is false from the start (for example, i > 10) and observe that the loop still runs once
+
+
+// let num=1;
+// do{
+//     console.log(num);
+//     num++;
+// }while(num<=5);
+
+//false condition :
+// let num=1;
+// do{
+//     console.log(num);
+//     num++;
+// }while(num > 5);
+
+
 
 
 
 // ✅Task 13 — Comparing Loop Types
-// Write the same task — printing numbers 1 to 5 — three times: once using for, once using
-// while, and once using do while. Compare how the code structure differs for each
+// Write the same task — printing numbers 1 to 5 — three times: once using for, once using while, and once using do while.
+// Compare how the code structure differs for each
+
+// console.log("Using For Loop :");
+// for(let i=1; i<=5;i++){
+//     console.log(i);
+// }
+
+
+// console.log("Using While Loop :");
+// let j=1;
+// while(j<=5){
+//     console.log(j);
+//     j++;
+// }
+
+
+// console.log("Using do While Loop :");
+// let k=1;
+// do{
+//     console.log(k);
+//     k++;
+// }while(k<=5);
+
 
 
 // ✅Task 14 — Mini Challenge
@@ -138,7 +195,22 @@
 // 4. Prints every number that passes both checks.
 
 
-// ✅
+for(let i=1; i<=100; i++){
+    if(i%5===0){
+        continue;
+    }
+    
+    if(i>40){
+        break;
+    }
+
+    console.log(i);
+}
+
+
+
+
+
 
 
 
