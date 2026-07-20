@@ -55,10 +55,23 @@ The first element is always at index 0.
 
 
 
-✅
-✅
-✅
-✅
+✅✅Common Array Methods
+
+| Method       | Purpose                 |
+| ------------ | ----------------------- |
+| `push()`     | Add to end              |
+| `pop()`      | Remove from end         |
+| `shift()`    | Remove from beginning   |
+| `unshift()`  | Add to beginning        |
+| `includes()` | Check if value exists   |
+| `indexOf()`  | Find index              |
+| `join()`     | Convert array to string |
+| `sort()`     | Sort elements           |
+| `reverse()`  | Reverse order           |
+| `length`     | Number of elements      |
+
+
+
 
 
 
