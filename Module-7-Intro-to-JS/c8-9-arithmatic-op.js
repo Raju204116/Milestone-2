@@ -13,7 +13,7 @@ JavaScript supports basic math operations.
 | `%`      | Remainder (Modulus) | `10 % 3` |
 | `**`     | Exponent (Power)    | `2 ** 3` |
 
-//Increment and Decrement operator :
+⚠️//Increment and Decrement operator :
 
 let count = 5;
 
@@ -23,7 +23,7 @@ count--;
 console.log(count);
 
 
-//shorthand operator : 
+⚠️//shorthand operator : 
 
 
 let x = 10;

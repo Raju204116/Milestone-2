@@ -169,41 +169,6 @@ if (age >= 18) {
 
 
 
-⚠️⚠️⚠️Logical Operators in Conditions
-
-
-You often combine conditions using:
-✅AND (&&) : Both conditions must be true.
-
-let age = 25;
-let hasID = true;
-
-if (age >= 18 && hasID) {
-    console.log("Entry Allowed");
-}
-
-
-
-✅OR (||) : At least one condition must be true.
-
-let isWeekend = true;
-let isHoliday = false;
-
-if (isWeekend || isHoliday) {
-    console.log("No Office");
-}
-
-
-
-✅NOT (!) : Reverses a boolean value.
-
-let isLoggedIn = false;
-
-if (!isLoggedIn) {
-    console.log("Please log in.");
-}
-
-
 
 
 

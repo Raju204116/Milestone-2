@@ -1,6 +1,6 @@
 
 /* 
-✅Accessing Elements (get)
+✅✅Accessing Elements (get)
 
 let fruits = ["Apple", "Banana", "Mango"];
 
@@ -14,7 +14,7 @@ Apple
 Banana
 Mango
 
-✅Changing Elements (set)
+✅✅Changing Elements (set)
 
 let fruits = ["Apple", "Banana", "Mango"];
 
@@ -26,7 +26,7 @@ Output:
 ["Apple", "Orange", "Mango"]
 
 
-✅Array Length
+✅✅Array Length
 
 let nums = [10, 20, 30, 40];
 console.log(nums.length);

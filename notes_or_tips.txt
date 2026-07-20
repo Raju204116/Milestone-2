@@ -1,0 +1,4 @@
+✅❌⚠️📌⭐
+
+✅1. (alt + shift + a) => multiline comment in js
+

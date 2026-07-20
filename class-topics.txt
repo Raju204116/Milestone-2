@@ -1,0 +1,218 @@
+
+📌📌📌📌📌📌📌📌 Milestone-2 : JavaScript📌📌📌📌📌📌📌📌📌
+
+
+⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐
+✅✅Module-7:Intro to JS
+⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐
+
+✅c1 : Intro
+Js basic theory
+
+✅c2 : Math in js
+Addition
+Subtraction
+Multiplication
+Division
+Modulus (remainder)
+Percentages
+Comparison
+Negative Numbers
+Random Numbers
+Average
+Math Object : round, floor,min,max
+
+
+✅c3-4-6 : Variable
+Variable types
+Variable Naming
+Js Keyword
+
+
+✅c-5 : Data Types
+Primitive data
+Non-Primitive data
+typeof
+
+✅c-7 : Numbers
+Types of Numbers
+Integer
+Floating-Point(Decimal)
+
+
+✅c8-9 : Arithmatic Operators
+Addition
+Subtraction
+Multiplication
+Division
+Modulus (remainder)
+Increment and Decrement operator
+shorthand operator
+Math Object
+Exceptional operations
+
+
+⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐
+✅✅Module-8: Conditionals in JS
+⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐
+
+
+✅c-1 : Comparison Operators
+>,<,<=, >=, == ,===, !=,!==
+
+
+✅c2-3-4-6-7 : Conditional Statements
+if
+if..else
+if...else if...else
+switch
+
+
+✅c8-9-Logical Operators
+AND (&&) 
+OR (||)
+NOT (!) 
+Truthy Values
+Falsy Values
+
+
+
+⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐
+✅✅Module-9: Loops in JS
+⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐
+✅c1-6-8-9-Loops
+for
+while
+do...while
+for...of 
+for...in
+
+
+✅c-7-Break & Continue
+break
+continue
+
+
+⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐
+✅✅Module-10: Array in JS
+⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐
+
+✅c1-2-array-basic
+Theory of array
+Creating & Indexing
+Common methods in array
+
+✅c-3-get-set
+Accessing Elements (get)
+Changing Elements (set)
+Array Length
+
+
+✅c-4-push-pop
+Adding Elements (push, unshift)
+Removing elements (pop, shift)
+
+
+✅c-5-join-concat-include-isArray
+Searching Elements [includes(),indexOf(),isArray() ]
+Joining Elements[ join(),concat() ]
+
+✅c-6-traversing-array
+for Loop
+for...of
+for...in
+
+
+✅c-7-reversing-array
+Using reverse()
+Using unshift() 
+Using length
+
+
+✅c-8-Sorting-slicing
+sort()
+slice()
+splice()
+
+
+⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐
+✅✅Module-11: 
+⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐
+
+✅c
+✅c
+✅c
+✅c
+✅c
+✅c
+✅c
+✅c
+✅c
+✅c
+
+⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐
+✅✅Module-: 
+⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐
+✅c
+✅c
+✅c
+✅c
+✅c
+✅c
+✅c
+✅c
+✅c
+✅c
+⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐
+✅✅Module-: 
+⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐
+✅c
+✅c
+✅c
+✅c
+✅c
+✅c
+✅c
+✅c
+✅c
+✅c
+⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐
+✅✅Module-: 
+⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐
+✅c
+✅c
+✅c
+✅c
+✅c
+✅c
+✅c
+✅c
+✅c
+✅c
+⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐
+✅✅Module-: 
+⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐
+✅c
+✅c
+✅c
+✅c
+✅c
+✅c
+✅c
+✅c
+✅c
+✅c
+⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐
+✅✅Module-: 
+⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐
+✅c
+✅c
+✅c
+✅c
+✅c
+✅c
+✅c
+✅c
+✅c
+✅c
+
