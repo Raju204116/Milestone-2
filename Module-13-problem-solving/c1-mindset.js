@@ -6,7 +6,8 @@ let problem ={
     step3 : "Plan (which loop/func will need)",
 
     tip1: "Do this 3 before touching the keyboard.",
-    tip2: "Problem = Understanding(70%) + code(30%) => solved "
+    tip2: "Problem = Understanding(70%) + code(30%) => solved ",
+    tip3: "Wrap all the problems in a function to reus"
 }
 console.log(problem);
 
