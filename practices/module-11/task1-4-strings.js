@@ -113,8 +113,7 @@ Test all three with "JavaScript" → should return "tpircSavaJ"
 const mainStr= "JavaScript"
 
 
-// method-1
-
+// method-1 : split, reverse, join
 function reverseString1(str){
     let reversed1 = "";  //declare it inside the function, so  the function become reusable
     reversed1 = str.split("");
@@ -127,7 +126,7 @@ console.log(reverseString1(mainStr)); //tpircSavaJ
 
 
 
-// method-2
+// method-2 : for.. of
 function reverseString2(str){
     let reversed2=""; 
     for(let elements of str){
@@ -138,7 +137,7 @@ function reverseString2(str){
 console.log(reverseString2(mainStr)); //tpircSavaJ
 
 
-// method-3
+// method-3 : general for loop
 function reverseString3(str){
     let reversed3= "";
     for(let i=0;i<str.length; i++){
@@ -156,8 +155,8 @@ Which Method is Fastest?
 
 Usually the fastest because:
 
-✅ No extra arrays are created.
-✅ No built-in methods (split(), reverse(), join()) are called.
-✅ It directly reads characters and builds the result.
+ No extra arrays are created.
+ No built-in methods (split(), reverse(), join()) are called.
+ It directly reads characters and builds the result.
 
 */
