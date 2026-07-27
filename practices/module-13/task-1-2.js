@@ -68,7 +68,23 @@ console.log("Reverse of the number :",reverseNumber(1234));
 console.log("Reverse of the number :",reverseNumber(7));
 
 
+/* 
+✅Edge Case : What happens here?
 
+console.log(reverseNumber(1200));
+
+Your function returns:21 
+
+Because : 
+"1200"
+↓
+"0021"
+↓
+Number("0021")
+↓
+21
+
+*/
 
 
 
