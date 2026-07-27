@@ -18,3 +18,8 @@ function evenArr(arr){
 console.log("The sum of the even array :",evenArr([10,13,15,20,26,30,31,85]));
 
 
+
+
+
+
+
