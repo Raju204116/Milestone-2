@@ -7,7 +7,7 @@ let problem ={
 
     tip1: "Do this 3 before touching the keyboard.",
     tip2: "Problem = Understanding(70%) + code(30%) => solved ",
-    tip3: "Wrap all the problems in a function to reus"
+    tip3: "Wrap all the problems in a function to make it reussable."
 }
 console.log(problem);
 
