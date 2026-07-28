@@ -35,6 +35,12 @@ Problem Statement:
 Write a function findShortestWord that takes a sentence and returns the
 shortest word in it. */
 
+// input : a sentence (string)
+// output : shortest word (string)
+// returns : a string
+
+
+
 function findShortestWord(str){
     let splitStr= str.split(" ");
     // console.log(splitStr);
