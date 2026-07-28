@@ -18,11 +18,11 @@ function productOfDigits(num) {
     return product;
 
 }
-// console.log("Product of digits :",productOfDigits(123));
+// console.log("Product of digits :",productOfDigits(123)); // Expected: 6
 // console.log(productOfDigits(4040)); 
 
 
-// method-2
+// method-2 (best)
 function productOfDigits2(num) {
     let product = 1;
     while (num !== 0) {
@@ -33,8 +33,8 @@ function productOfDigits2(num) {
     return product;
 
 }
-// console.log("Product of digits2 :",productOfDigits2(123));
-// console.log(productOfDigits2(4040)); 
+// console.log("Product of digits2 :",productOfDigits2(123)); // Expected: 6
+// console.log(productOfDigits2(4040));  // Expected: 0
 
 
 
@@ -60,4 +60,4 @@ function getOddNumbers(num) {
     return oddNums;
 
 }
-console.log("Array of Odd Nums :",getOddNumbers(10));
+console.log("Array of Odd Nums :",getOddNumbers(10)); // Expected: [1, 3, 5, 7, 9]

@@ -4,6 +4,12 @@ Write a function isPalindrome that takes a string and returns true if it reads
 the same forwards and backwards, otherwise false. Assume lowercase, no
 spaces. */
 
+
+
+
+
+
+
 /* ✅Task 13-5B: Find the Shortest Word in a Sentence
 Matches lesson: 13-5 (String problems — split + loops)
 Problem Statement:
