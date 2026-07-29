@@ -131,21 +131,21 @@ function invertObject(obj){
 
     for(let originalkey in obj){
         console.log("originalkey:",originalkey); //a
-        console.log("Obj[key] =",obj[originalkey]); //obj[key] => obj["a"] =>1
+        // console.log("Obj[key] =",obj[originalkey]);   //obj[key] => obj["a"] =>1
 
         /* Assigning originalValues as revKey of revObj */
-        let revKey=obj[originalkey]; //revKey= obj[orginalKey] => obj[key] => obj["a"] =>1
-        console.log("revKey:",revKey);//1
+        let revKey=obj[originalkey]; //revKey= obj[orginalKey]  => obj["a"] =>1
+        console.log("Obj[Originalkey] == revKey =",revKey);//1
         
 
         /* Assigning originalkey as revValues of revObj */
-        console.log("revObj[revKey] =",reversedObj[revKey]); //undefined
+        // console.log("revObj[revKey] =",reversedObj[revKey]); //undefined
         reversedObj[revKey]=originalkey; //revObj[revKey] => revObj["1"]=originalkey   => revObj[1]=a  == revValue
-        console.log("revObj[revKey] =",reversedObj[revKey] , "\n"); //a
+        console.log("revObj[revKey] == revValue =",reversedObj[revKey] , "\n"); //a
     }
 
     return reversedObj;
 
 }
 let myObj={ a: 1, b: 2, c: 3 };
-console.log(invertObject(myObj));
+console.log(invertObject(myObj)); // Expected: { 1: "a", 2: "b", 3: "c" }
