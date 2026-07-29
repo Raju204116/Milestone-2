@@ -22,3 +22,21 @@ function countVowels(str) {
  
 console.log(countVowels("orange")); // Expected: 3
  */
+
+
+// Apply the full debugging process to find this bug
+ 
+function countVowels(str) {
+  let vowels = "aeiou";
+  let count = 0;
+ 
+  for (let i = 0; i < str.length; i++) { // find the bug : no error message=logical error : it should be i<str.length
+    if (vowels.includes(str[i])) {
+      count = count + 1;
+    }
+  }
+ 
+  return count;
+}
+ 
+console.log(countVowels("orange")); // Expected: 3

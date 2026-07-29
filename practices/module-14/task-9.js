@@ -11,9 +11,20 @@ function celsiusToFahrenheit(celsius) {
 }
  
 console.log(celsiusToFahrenheit(0)); // Expected: 32
+*/
+
+// Buggy Code:
+function celsiusToFahrenheit(celsius) {
+  return celsius * 9 / 5 + 32; // find the bug :  no error message=logical error : it should be 32 instead of 3
+}
+ 
+console.log(celsiusToFahrenheit(0)); // Expected: 32
 
 
-✅14-9B: Array Sum Skips a Number
+
+
+
+/* ✅14-9B: Array Sum Skips a Number
 Problem Statement: Should return the sum of all numbers in the array.
 Input : [1, 2, 3, 4]
 Expected Output :10
@@ -29,11 +40,25 @@ function sumArray(numbers) {
   return total;
 }
  
-console.log(sumArray([1, 2, 3, 4])); // Expected: 10
+console.log(sumArray([1, 2, 3, 4])); // Expected: 10 
+// */
+
+// Buggy Code:
+function sumArray(numbers) {
+  let total = 0;
+ 
+  for (let i = 0; i < numbers.length; i++) { // find the bug : logical error :it should be i=0 instead of i=1
+    total = total + numbers[i];
+  }
+ 
+  return total;
+}
+ 
+console.log(sumArray([1, 2, 3, 4])); // Expected: 10 
 
 
 
-✅14-9C: String Repeat
+/* ✅14-9C: String Repeat
 Problem Statement: Should return a string repeated a given number of times.
 Input : "ab", 3
 Expected Output :"ababab"
@@ -50,12 +75,24 @@ function repeatString(str, times) {
   return result;
 }
  
-console.log(repeatString("ab", 3)); // Expected: "ababab"
+console.log(repeatString("ab", 3)); // Expected: "ababab" 
+// */
+
+// Buggy Code:
+function repeatString(str, times) {
+  let result = "";
+ 
+  for (let i = 0; i < times; i++) {
+    result =result + str; // find the bug : logical error : it should be result + str instead of only str
+  }
+ 
+  return result;
+}
+ 
+console.log(repeatString("ab", 3)); // Expected: "ababab" 
 
 
-
-
-✅14-9D: Object Property Update
+/* ✅14-9D: Object Property Update
 Problem Statement: Should update a person's age property and return the updated object.
 Input : { name: "Lee", age: 20 }, 21
 Expected Output :{ name: "Lee", age: 21 }
@@ -67,4 +104,13 @@ function updateAge(person, newAge) {
 }
  
 console.log(updateAge({ name: "Lee", age: 20 }, 21));
-// Expected: { name: "Lee", age: 21 } */
+// Expected: { name: "Lee", age: 21 }  
+// */
+
+// Buggy Code:
+function updateAge(person, newAge) {
+  person.age = newAge; // find the bug : <ref *1>  : it should be  person.age = newAge; instead of person.age = person;
+  return person;
+}
+ 
+console.log(updateAge({ name: "Lee", age: 20 }, 21));// Expected: { name: "Lee", age: 21 }  
