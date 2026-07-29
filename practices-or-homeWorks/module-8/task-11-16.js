@@ -91,7 +91,7 @@
 
 
 /* ********************************** */
-//Task-15
+//Task-15 : login System
 
 // let isLoggedIn = true;
 // let isAdmin = false;
@@ -107,24 +107,15 @@
 
 
 /* ********************************** */
-//Task-16
+//Task-16 : ternary oddEven
 
 let num=15;
 
-if(num%2 === 0){
-    console.log("The number is EVEN.")
-}else
-    console.log("ODD")
+// if(num%2 === 0){
+//     console.log("The number is EVEN.")
+// }else
+//     console.log("ODD")
 
+console.log(num%2===0 ? "The number is EVEN.":"ODD");
 
-
-/* ********************************** */
-//Task-
-/* ********************************** */
-//Task-
-/* ********************************** */
-//Task-
-/* ********************************** */
-//Task-
-/* ********************************** */
-//Task-
+ 

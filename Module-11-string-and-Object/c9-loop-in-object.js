@@ -77,14 +77,10 @@ Raju
 Bangladesh
 
 
-
-
 ⚠️⚠️ Remember
 
 Arrays → Usually loop with for, for...of, or array methods.
 Objects → Usually loop with for...in or Object.keys(), Object.values(), and Object.entries().
-
-
 
 
 */
