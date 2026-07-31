@@ -1,6 +1,6 @@
 
 /* ********************************** */
-//Task-11
+//Task-11 : Build a grading system using a marks variable (A+, A, B, C, F) — it must have at least 5 condition branches. 
 
 // let mark=67;
 
@@ -21,7 +21,8 @@
 
 
 /* ********************************** */
-//Task-12
+//Task-12  :Using a bmi variable, determine the category — Underweight, Normal, Overweight, Obese (use if-else if).
+
 //BMI = Weight (kg) / (Height × Height) (m)
 
 // let weight = 62 ;
@@ -43,7 +44,7 @@
 
 
 /* ********************************** */
-//Task-13
+//Task-13  : Using a month number (1-12), determine which season that month falls in (Winter, Summer, Monsoon, etc.).
 
 // let month = 7;
 
@@ -69,7 +70,7 @@
 
 
 /* ********************************** */
-//Task-14
+//Task-14 :  Using age and hasID, use nested if-else to check whether someone is eligible to vote. 
 
 // let age = 25;
 // let hasId =false;
@@ -91,7 +92,9 @@
 
 
 /* ********************************** */
-//Task-15 : login System
+/* Task-15 : Using isLoggedIn and isAdmin, build a nested condition — if logged in and admin, print 
+"Admin Dashboard"; if logged in but not admin, print "User Dashboard"; if not logged in, 
+print "Please Login". */
 
 // let isLoggedIn = true;
 // let isAdmin = false;
@@ -107,7 +110,7 @@
 
 
 /* ********************************** */
-//Task-16 : ternary oddEven
+//Task-16 : Determine whether a number is even or odd using the ternary operator.
 
 let num=15;
 

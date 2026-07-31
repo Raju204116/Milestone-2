@@ -1,6 +1,7 @@
 
 /* ********************************** */
-//Task-1
+/* Task-1  : Take two variables price1 and price2, and compare them using all comparison operators 
+(==, ===, !=, !==, >, <, >=, <=), printing each result with console.log.  */
 
 // let price1=30;
 // let price2=60;
@@ -56,7 +57,7 @@
 
 
 /* ********************************** */
-//Task-2
+//Task-2 : Guess the result of "5" == 5 and "5" === 5 first, then write code to verify your guess. 
 
 // // ==
 // if("5"==5){ //compares only value
@@ -73,7 +74,7 @@
 
 
 /* ********************************** */
-//Task-3
+//Task-3 : Create a variable isRaining (true/false). If it is true, print "Take an umbrella".
 
 // // let isRaining = true;
 // let isRaining = false;
@@ -90,7 +91,7 @@
 
 
 /* ********************************** */
-//Task-4
+//Task-4 : Take a variable stock. If stock is 0, print "Out of stock" (use only if, no else). 
 
 
 // let stock=5;
@@ -105,7 +106,7 @@
 
 
 /* ********************************** */
-//Task-5
+//Task-5 :  Take a number variable and check whether it is positive or negative (using if-else). 
 
 //positive or negative
 
@@ -121,7 +122,7 @@
 
 
 /* ********************************** */
-//Task-6
+//Task-6 : Take a year variable and check whether it is a leap year (hint: year % 4 === 0).
 //leap year
 
 // let year=1900
@@ -138,7 +139,7 @@
 
 
 /* ********************************** */
-//Task-7
+//Task-7 : Take a speed variable. If speed is greater than 80, print "Overspeeding", otherwise print "Normal speed". 
 
 // let speed=75;
 
@@ -151,7 +152,7 @@
 
 
 /* ********************************** */
-//Task-8
+//Task-8 :  Using age and hasTicket, print "Entry allowed" if age is above 18 AND the person has a ticket (use &&).
 
 // let age=21;
 // hasTicket = false;
@@ -168,7 +169,7 @@
 
 
 /* ********************************** */
-//Task-9
+//Task-9 :  Using isWeekend and isHoliday, print "No work today" if either one is true (use ||). 
 
 // let isWeekend = true;
 // isHoliday = false;
@@ -183,7 +184,7 @@
 
 
 /* ********************************** */
-//Task-10
+//Task-10 :  Build a simple login system — print "Login successful" only if both username and password are correct. 
 
 let userName ="raj4";
 let password = 12345 ;
